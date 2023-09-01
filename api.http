@@ -1,0 +1,13 @@
+### Recuperar todas las películas
+GET http://localhost:1234/tasks
+
+### Crear una película con POST
+POST http://localhost:1234/tasks
+Content-Type: application/json
+
+{
+  "description": "test noe"
+}
+
+### Borrar una película
+DELETE http://localhost:1234/tasks/1
