@@ -34,7 +34,6 @@ export class TaskModel {
    * @returns {Object} The new task object.
    */
   static addTask (description) {
-    debugger
     currentId++
     const newTask = {
       id: currentId,
